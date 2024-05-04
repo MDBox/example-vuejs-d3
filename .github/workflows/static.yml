@@ -35,8 +35,8 @@ jobs:
         uses: actions/setup-node@v4.0.2
       - name: Build Project
         run: |
-          cd ./vuejs-d3 \
-          npm install \
+          cd ./vuejs-d3 && \
+          npm install && \
           npm build
         
       - name: Setup Pages
