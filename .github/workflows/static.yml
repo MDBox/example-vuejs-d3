@@ -37,7 +37,7 @@ jobs:
         run: |
           cd ./vuejs-d3 && \
           npm install && \
-          npm build
+          npm run build
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
